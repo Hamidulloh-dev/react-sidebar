@@ -9,7 +9,21 @@
     box-sizing: border-box;
 }
 
-li:hover {
-    background-color: #EBF3FF;
-    color: #3F8CFF;
+@layer components {
+    li:hover {
+        background-color: #EBF3FF;
+        color: #3F8CFF;
+    }
+
+    .support {
+        transition: background-color 0.3s ease;
+    }
+
+    .support:hover {
+        background-color: #5d9eff;
+    }
+
+    .logout:hover {
+        color: #3F8CFF;
+    }
 }
