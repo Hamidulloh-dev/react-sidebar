@@ -1,7 +1,14 @@
-/* @refresh reload */
-import { render } from 'solid-js/web' 
-import './index.css'
+// main.tsx
+import React from "react";
+import RootLayout from "./layouts/RoutLayout";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import "./index.css";
 
-const root = document.getElementById('root')
-
-render(() => <h1/>, root!)
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <RootLayout />
+    </BrowserRouter>
+  </React.StrictMode>
+);

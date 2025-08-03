@@ -1,0 +1,11 @@
+<svg width="22.891602" height="14.882812" viewBox="0 0 22.8916 14.8828" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<mask id="mask_50_2209" fill="white">
+		<path id="users" d="" fill="" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</mask>
+	<path id="users" d="" fill="#7D8592" fill-opacity="1.000000" fill-rule="nonzero" mask="url(#mask_50_2209)"/>
+	<path id="users" d="" fill="#3F8CFF" fill-opacity="0.000000" fill-rule="nonzero"/>
+</svg>
